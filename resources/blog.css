@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300');
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono');
+@import url('resources/webfonts/stylesheet.css');
+
+h1.title, h2.subtitle, h1 {
+    font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+h1.title {
+    border-top: none;
+    font-size: 1.9em;
+}
+
+h1 {
+    margin-top: 1.5em;
+    border-top: 1pt solid black;
+    font-size: 1.5em;
+}
+
+h2.subtitle {
+    font-weight: light;
+}
+
+tt.literal {
+    font-family: "Fira Mono", monospace;
+    font-size: 0.8em;
+}
+
+pre.code {
+    font-family: "Fira Mono", monospace;
+    font-size: 0.8em;
+}
+
+body {
+    width: 700px;
+    margin: 0 auto;
+    font-family: charterregular, serif;
+    font-size: 1.18rem;
+}
+
+table, td, tr {
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
